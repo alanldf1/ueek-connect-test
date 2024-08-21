@@ -1,6 +1,4 @@
 # ueek-connect-test
-Project test send by ueek. Will be used 2 technologies, Laravel to backend on API and Next.js to frontend.
-
 
  * Esse sistema utiliza Laravel para a API, Next.js para o frontend e postgreSQL no banco de dados.  
  * Primeiramente clone o repositório para sua máquina local, `git@github.com:alanldf1/ueek-connect-test.git`.
@@ -28,3 +26,16 @@ Project test send by ueek. Will be used 2 technologies, Laravel to backend on AP
  * O servidor do frontend em `http://localhost:3000`
  * O container do banco de dados em `http://localhost:5432`
  
+
+ ### Observações
+ * É meu primeiro projeto em Next.js
+ * É meu primeiro projeto do zero em Laravel (Toda minha experiência em Laravel é em um projeto pronto que utiliza o laravel na versão 9)
+ * É meu primeiro projeto com banco de dados em postgreSQL
+ Tenho anotado algumas alterações que poderiam escalar no sistema
+ * Fila para compra de um número
+ * Função de tempo no banco de dados para reprovar as compras de números que não forem pagas em 24h
+ * Display de erros em um toast
+
+
+
+~ By Alan Cavalheiro de Souza
